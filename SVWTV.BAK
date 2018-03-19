@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#define pi 3.142
+void main()
+{
+ float radius,area;
+ clrscr();
+ printf("enter the radius of a circle \n");
+ scanf("%f",&radius);
+ area=pi*pow(radius,2);
+ printf("area of circle=%5.2f\n",area);
+ getch();
+}
